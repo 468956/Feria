@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2.0rem;
+}
+
+h2 {
+    font-size: 2.7rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  padding-bottom: 60px; /* espacio para menú inferior */
+}
+
+/* CONTENIDO */
+.contenido {
+  padding: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+/* ----- NAVBAR SUPERIOR (ESCRITORIO) ----- */
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #061525;
+  color: white;
+  padding: 1rem;
+}
+
+.top-nav .logo {
+  font-size: 1.5rem;
+}
+
+.top-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.top-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* ----- NAVBAR INFERIOR (MÓVIL) ----- */
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #061525;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.6rem 0;
+  border-top: 1px solid #aaa;
+  z-index: 1000; 
+}
+
+.nav-item {
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.nav-item i {
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+/* RESPONSIVE COMPORTAMIENTO */
+@media (min-width: 768px) {
+  .bottom-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .top-nav {
+    display: none;
+  }
+}
+
+
+
