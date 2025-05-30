@@ -47,6 +47,10 @@ a {
   font-size: 1.5rem;
 }
 
+.top-nav .logo .img_logo{
+    width: 25px;
+}
+
 .top-links {
   list-style: none;
   display: flex;
