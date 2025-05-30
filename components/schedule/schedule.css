@@ -49,3 +49,7 @@ details.feria-detail[open] {
 background: #eaf7ff;
 border-color: #12c9d6;
 }
+
+li {
+  text-align: left;
+}
