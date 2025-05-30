@@ -1,3 +1,11 @@
+:root {
+  --main-color: #f97316;
+  --bg-light: #fff;
+  --bg-dark: #1f2937;
+  --text-light: #111;
+  --text-dark: #eee;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -38,7 +46,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #061525;
+  background: var(--main-color);
   color: white;
   padding: 1rem;
 }
@@ -63,10 +71,10 @@ a {
 
 .bottom-nav {
   position: fixed;
-  bottom: 0;
+  bottom: 0.4rem;
   left: 0;
   width: 100%;
-  background: #061525;
+  background: var(--main-color);
   display: flex;
   justify-content: space-around;
   padding: 0.6rem 0;
@@ -99,6 +107,3 @@ a {
     display: none;
   }
 }
-
-
-
