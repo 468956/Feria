@@ -36,7 +36,7 @@ a {
 /* ----- NAVBAR SUPERIOR (ESCRITORIO) ----- */
 .top-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background: #ffb703;
   color: white;
