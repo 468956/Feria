@@ -27,6 +27,14 @@ body {
 /* CONTENIDO */
 .contenido {
   padding: 2rem;
+  margin: 50px;
+  
+}
+
+.contenido img {
+
+  width: 500px;
+
 }
 
 a {
@@ -103,6 +111,5 @@ a {
     display: none;
   }
 }
-
 
 
