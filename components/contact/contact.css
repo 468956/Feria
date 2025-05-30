@@ -25,7 +25,7 @@
     }
     
     .contact-form button {
-    background-color: #12c9d6;
+    background-color: #ffb703;
     color: white;
     padding: 0.75rem;
     border: none;
@@ -36,5 +36,5 @@
     }
     
     .contact-form button:hover {
-    background-color: #0aa5b1;
+    background-color: #ffb703;
     }
