@@ -38,7 +38,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #061525;
+  background: #ffb703;
   color: white;
   padding: 1rem;
 }
@@ -66,7 +66,7 @@ a {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: #061525;
+  background: #ffb703;
   display: flex;
   justify-content: space-around;
   padding: 0.6rem 0;
