@@ -22,9 +22,11 @@ text-decoration: none;
 
 /* Imagen de perfil dentro de la tarjeta */
 .food-img {
+  width: 100%; 
+  object-fit: contain; 
+  aspect-ratio: 1 / 1;
   height: 125px; /* Altura de la imagen */
   border-radius: 15%; /* Imagen redonda */
-  object-fit: cover; /* Ajustar la imagen al contenedor */
   margin-bottom: 10px; /* Espaciado inferior */
 }
 .starbucks{
