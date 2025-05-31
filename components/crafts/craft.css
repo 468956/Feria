@@ -22,6 +22,7 @@ text-decoration: none;
 /* Imagen de perfil dentro de la tarjeta */
 .craft-img {
   height: 125px; /* Altura de la imagen */
+  width: 100px;
   border-radius: 15%; /* Imagen redonda */
   object-fit: cover; /* Ajustar la imagen al contenedor */
   margin-bottom: 10px; /* Espaciado inferior */
