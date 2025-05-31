@@ -8,12 +8,14 @@
 }
 
 .feria-card {
-text-align: center;
+text-align: left;
+width: 100%;
 border-radius: 20px;
 transition: all 0.3s ease;
 backdrop-filter: blur(4px);
 box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
 padding: 8%
+object-fit: contain; 
 }
 
 a {
@@ -22,9 +24,11 @@ text-decoration: none;
 
 /* Imagen de perfil dentro de la tarjeta */
 .feria-img {
+  width: 100%; 
+  object-fit: contain; 
+  aspect-ratio: 1 / 1;
   height: 125px; /* Altura de la imagen */
   border-radius: 1%; /* Imagen redonda */
-  object-fit: cover; /* Ajustar la imagen al contenedor */
   margin-bottom: 10px; /* Espaciado inferior */
 }
 
@@ -50,6 +54,3 @@ background: #eaf7ff;
 border-color: #12c9d6;
 }
 
-li {
-  text-align: left;
-}
