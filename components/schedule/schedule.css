@@ -8,14 +8,13 @@
 }
 
 .feria-card {
-text-align: left;
-width: 100%;
+text-align: justify;
 border-radius: 20px;
 transition: all 0.3s ease;
 backdrop-filter: blur(4px);
 box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
 padding: 8%
-object-fit: contain; 
+
 }
 
 a {
