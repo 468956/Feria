@@ -27,6 +27,10 @@ text-decoration: none;
   object-fit: cover; /* Ajustar la imagen al contenedor */
   margin-bottom: 10px; /* Espaciado inferior */
 }
+#starbucks{
+  height: 125px;
+  width: 125px;
+}
 
 /* Efecto al pasar el cursor sobre la tarjeta */
 .food-card:hover {
